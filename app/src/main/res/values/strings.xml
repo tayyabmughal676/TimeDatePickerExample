@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Studio3.5.1</string>
+    <string name="time_picker">Time Picker</string>
+    <string name="data_picker">Data Picker</string>
+</resources>
