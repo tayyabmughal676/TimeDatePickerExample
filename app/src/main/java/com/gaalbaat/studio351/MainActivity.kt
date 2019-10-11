@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.annotation.RequiresApi
+import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +16,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
 
 
 
@@ -47,6 +50,11 @@ class MainActivity : AppCompatActivity() {
             ,m
             ,true)
         tpd.show()
+    }
+    @RequiresApi(Build.VERSION_CODES.N)
+    fun clickFloatButton(view: View){
+
+//        floatingActionButton.tooltipText = "Send Email"
     }
 
 }
